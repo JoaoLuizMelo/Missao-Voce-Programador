@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body {
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*FALANDO PARA O body que o mesmo ocupa 100% da altura*/
+    width: 100vw;
+    /*FALANDO PARA O body que o mesmo ocupa 100% da largura*/
+}
+
+.caixa-maior {
+    background-color: #000000;
+    /* cor da caixa */
+    width: 95% ;
+    max-width: 420px;
+    /* Largura da caixa */
+    opacity: 0.8;
+    /* transparencia do item*/
+    padding: 20px;
+    border-radius: 25px;
+
+}
+
+input {
+    border: none;
+    /* apaga as bordas*/
+    outline: none;
+    /* borda quando seleciona o elemento*/
+    padding: 10px;
+    /* crescemos a parte interna*/
+    border-radius: 24px;
+    /* arredonda as bordas*/
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100% - 100px);
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #7c7c7c6b;
+}
+
+.caixa-media {
+    margin-top: 10px;
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+}
+
+.lupa {
+    height: 20px;
+    /* tamanho da lupa*/
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 28px;
+    /* tamanho do texto*/
+}
+
+.temp {
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.descricao {
+    color: #ffffff;
+    margin-top: 10px;
+    text-transform: capitalize; /*Deixa  a primeira letra maiuscula*/
+    margin-left: 20px;
+}
+
+
+.umidade {
+    color: #ffffff;
+    margin-top: 10px;
+}
